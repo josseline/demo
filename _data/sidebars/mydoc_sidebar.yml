@@ -3,7 +3,7 @@
 entries:
 - title: sidebar
   product: Demo Github Page
-  version: 1.0
+  version: 
   folders:
 
   - title:
@@ -33,7 +33,7 @@ entries:
     folderitems:
 
     - title: Tipo de Cambio
-      url: /mydoc_soap.html
+      url: /mydoc_release_notes_60.html
       output: web, pdf
 
     - title: Otro WS
@@ -45,7 +45,7 @@ entries:
     folderitems:
 
     - title: About Ruby, Gems, Bundler, etc.
-      url: /mydoc_rest.html
+      url: /mydoc_release_notes_50.html
       output: web, pdf
 
     - title: Otro servicio REST
