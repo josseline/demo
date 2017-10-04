@@ -32,12 +32,24 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: SOAP
-      url: /mydoc_release_notes_60.html
+    - title: Tipo de Cambio
+      url: /mydoc_soap.html
       output: web, pdf
 
-    - title: REST
-      url: /mydoc_release_notes_50.html
+    - title: Otro WS
+      url: /
       output: web, pdf
 
- 
+  - title: REST
+    output: web, pdf
+    folderitems:
+
+    - title: About Ruby, Gems, Bundler, etc.
+      url: /mydoc_rest.html
+      output: web, pdf
+
+    - title: Otro servicio REST
+      url: /
+      output: web, pdf
+
+  
