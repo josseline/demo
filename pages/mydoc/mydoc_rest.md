@@ -9,7 +9,7 @@ permalink: mydoc_rest.html
 folder: mydoc
 ---
 
-## GET
+## GET ALL
 
 Devuelve la lista de todos los clientes
 
