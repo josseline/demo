@@ -1,5 +1,5 @@
 ---
-title: Servicio: Tipo de Cambio 
+title: Servicio Tipo de Cambio 
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
 last_updated: July 16, 2016
