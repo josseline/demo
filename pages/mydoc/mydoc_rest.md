@@ -48,6 +48,7 @@ Se debe especificar un objeto de tipo Cliente con la siguiente estructura:
 | --------| ----------- |
 | 200 | OK |
 | 400 | Bad Request |
+
 ## GET
 Devuelve un cliente específico
 
