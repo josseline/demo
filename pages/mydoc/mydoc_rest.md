@@ -44,6 +44,7 @@ Se debe especificar un objeto de tipo Cliente con la siguiente estructura:
 ```
 
 ### Responses
+
 | Código | Descripción |
 | --------| ----------- |
 | 200 | OK |
@@ -52,7 +53,7 @@ Se debe especificar un objeto de tipo Cliente con la siguiente estructura:
 ## GET
 Devuelve un cliente específico
 
-###Request
+### Request
 ```yamll
 GET /api/Clientes/{id}
 ```
@@ -73,7 +74,7 @@ Codigo | Descripción |
 ## PUT
 Permite modificar un cliente específico.
 
-###Request
+### Request
 ```yamll
 PUT /api/Clientes/{id}
 ```
@@ -96,7 +97,7 @@ Codigo | Descripción |
 ## DELETE
 Permite eliminar un cliente específico.
 
-###Request
+### Request
 ```yamll
 DELETE /api/Clientes/{id}
 ```
