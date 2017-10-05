@@ -2,7 +2,7 @@
 
 entries:
 - title: sidebar
-  product: Demo Github Page
+  product: Servicios
   version: 
   folders:
 
@@ -19,25 +19,12 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Overview
-    output: web, pdf
-    folderitems:
-
-    - title: Get started
-      url: /index.html
-      output: web, pdf
-      type: homepage
-
   - title: SOAP
     output: web, pdf
     folderitems:
 
-    - title: Tipo de Cambio
+    - title: Tipo de Cambio del día
       url: /mydoc_release_notes_60.html
-      output: web, pdf
-
-    - title: Otro WS
-      url: /
       output: web, pdf
 
   - title: REST
@@ -48,8 +35,6 @@ entries:
       url: /mydoc_release_notes_50.html
       output: web, pdf
 
-    - title: Otro servicio REST
-      url: /
-      output: web, pdf
+
 
   
