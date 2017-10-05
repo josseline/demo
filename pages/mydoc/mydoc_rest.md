@@ -20,11 +20,10 @@ GET /api/Clientes
 ```
 
 ### Responses
-```yamll
+
 Código | Descripción 
 --------|-----------
 200 | OK
-```
 
 ## POST
 Crea un nuevo cliente
