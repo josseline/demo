@@ -3,7 +3,7 @@ title: Servicio Tipo de Cambio
 tags: [getting_started]
 keywords: soap, announcements, what's new, new features
 last_updated: July 16, 2016
-resumen: "Servicio Web creado por el Banco de Guatemala que devuelve el Tipo de cambio en moneda extranjera"
+summary: "Servicio Web creado por el Banco de Guatemala que devuelve el Tipo de cambio en moneda extranjera"
 sidebar: mydoc_sidebar
 permalink: mydoc_soap.html
 folder: mydoc
