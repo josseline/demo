@@ -31,8 +31,8 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: About Ruby, Gems, Bundler, etc.
-      url: /mydoc_release_notes_50.html
+    - title: Ejemplo
+      url: /mydoc_rest.html
       output: web, pdf
 
 
