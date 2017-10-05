@@ -3,7 +3,7 @@ title: Servicio Clientes
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
 last_updated: July 3, 2016
-summary: "Test"
+summary: "Servicio Rest de ejemplo que define las acciones de los clientes."
 sidebar: mydoc_sidebar
 permalink: mydoc_rest.html
 folder: mydoc
@@ -21,16 +21,9 @@ GET /api/Clientes
 
 ### Responses
 ```yamll
-<table>
-<tr>
-<td><strong>Código</strong></td>
-<td><strong>Descripción</strong></td>
-</tr>
-<tr>
-<td>200</td>
-<td>OK</td>
-</tr>
-</table>
+Código | Descripción 
+--------|-----------
+200 | OK
 ```
 
 ## POST
