@@ -81,7 +81,7 @@ PUT /api/Clientes/{id}
 ```
 
 ### Parámetros
-Se debe especificar el ID del cliente que se desea consultar
+Se debe especificar el ID del cliente y los datos que se desean modificar del cliente.
 
 Nombre | Tipo | 
 -- | --
