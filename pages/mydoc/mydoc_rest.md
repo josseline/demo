@@ -21,9 +21,16 @@ GET /api/Clientes
 
 ### Responses
 ```yamll
-Codigo | Descripción | 
--- | --
-200| Solicitud Correcta | 
+<table>
+<tr>
+<td><strong>Código</strong></td>
+<td><strong>Descripción</strong></td>
+</tr>
+<tr>
+<td>200</td>
+<td>OK</td>
+</tr>
+</table>
 ```
 
 ## POST
