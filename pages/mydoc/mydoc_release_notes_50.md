@@ -1,15 +1,15 @@
 ---
-title: Release notes 5.0
+title: Servicio REST
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
 last_updated: July 3, 2016
-summary: "Version 5.0 of the Documentation theme for Jekyll changes some fundamental ways the theme works to provide product-specific sidebars, intended to accommodate a site where multiple products are grouped together on the same site rather than generated out as separate outputs."
+summary: "Test"
 sidebar: mydoc_sidebar
 permalink: mydoc_release_notes_50.html
 folder: mydoc
 ---
 
-## Unique sidebars for each product
+## Prueba
 
 In previous versions of the theme, I built the theme to generate different outputs for different scenarios based on various filtering attributes that might include product, version, platform, and audience variants.
 
