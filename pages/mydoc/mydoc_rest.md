@@ -21,9 +21,9 @@ GET /api/Clientes
 
 ### Responses
 
-Código | Descripción 
---------|-----------
-200 | OK
+| Código | Descripción |
+| --------| ----------- |
+| 200 | OK |
 
 ## POST
 Crea un nuevo cliente
@@ -44,12 +44,10 @@ Se debe especificar un objeto de tipo Cliente con la siguiente estructura:
 ```
 
 ### Responses
-```yamll
 | Código | Descripción |
 |-------- | ------ |
 | 200 | OK |
 |400 | Bad Request |
-```
 
 ## GET
 Devuelve un cliente específico
@@ -62,18 +60,15 @@ GET /api/Clientes/{id}
 ### Parámetros
 Se debe especificar el ID del cliente que se desea consultar
 
-```yamll
-Nombre | Tipo | 
--- | --
-*id| integer | 
-```
+| Nombre | Tipo |
+|-------- | ------ |
+| id | integer |
+
 ### Responses
-```yamll
 Codigo | Descripción | 
 -- | --
 200| OK | 
 404| Not Found |
-```
 
 ## PUT
 Permite modificar un cliente específico.
@@ -86,20 +81,17 @@ PUT /api/Clientes/{id}
 ### Parámetros
 Se debe especificar el ID del cliente que se desea consultar
 
-```yamll
 Nombre | Tipo | 
 -- | --
 *id| integer | 
 cliente| cliente
-```
+
 ### Responses
-```yamll
 Codigo | Descripción | 
 -- | --
 200| OK | 
 400| Bad Request |
 404| Not Found |
-```
 
 ## DELETE
 Permite eliminar un cliente específico.
@@ -112,16 +104,12 @@ DELETE /api/Clientes/{id}
 ### Parámetros
 Se debe especificar el ID del cliente que se desea eliminar
 
-```yamll
 Nombre | Tipo | 
 -- | --
 *id| integer | 
-```
 
 ### Responses
-```yamll
 Codigo | Descripción | 
 -- | --
 204| No Content | 
 404| Not Found |
-```
