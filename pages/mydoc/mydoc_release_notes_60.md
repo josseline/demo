@@ -1,33 +1,29 @@
 ---
-title: Servicio: Tipo de Cambio 
+title: Release notes 6.0
 tags: [getting_started]
 keywords: release notes, announcements, what's new, new features
 last_updated: July 16, 2016
-summary: "Servicio Web creado por el Banco de Guatemala que devuelve el Tipo de cambio en moneda extranjera"
+summary: "Version 6.0 of the Documentation theme for Jekyll, released July 4, 2016, implements relative links so you can view the files offline or on any server without configuring urls and baseurls. Additionally, you can store pages in subdirectories. Templates for alerts and images are available."
 sidebar: mydoc_sidebar
 permalink: mydoc_release_notes_60.html
 folder: mydoc
 ---
 
-## Nombre de operación
+## Relative links
 
-TipoCambioDia
+You can now view the site offline rather than solely through the Jekyll preview server or deployed on a web server. The linking approach in both the sidebar and with inline links uses relative linking throughout.
 
-## Descripción
+## Subfolders for pages
 
-Devuelve el cambio del día en dólares.
+You can creates folders and subfolders for your pages, similar to how you can store posts in folders and subfolders. When Jekyll builds the site, all pages get pushed into the root directory as single html files (rather than being pushed inside folders, or remaining in subfolders). See [Pages][mydoc_pages] for more details.
 
-## URL
+## Alerts templates
 
-https://www.banguat.gob.gt/variables/ws/TipoCambio.asmx
+You can use include templates for notes, tips, and warnings. These include templates make it easier to insert notes. If you make an error, you're immediately made aware since the site won't build. See [Alerts][mydoc_alerts] for more details.
 
-## Response
+## Image templates
 
-```yamll
-<string xmlns="http://tempuri.org/">
-<?xml version="1.0" encoding="utf-8"?> <InfoVariable> <CambioDolar> <VarDolar> <fecha>05/10/2017</fecha> <referencia>7.34192</referencia> </VarDolar> </CambioDolar> <TotalItems>1</TotalItems> </InfoVariable>
-</string>
-```
+Similar to alerts, images also have include templates. You can insert both regular images and inline images, such as images that are a button or icon. See [Images][mydoc_images] for more details.
 
 ## Automated links using Markdown formatting
 
