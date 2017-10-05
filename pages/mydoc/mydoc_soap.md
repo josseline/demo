@@ -1,11 +1,11 @@
 ---
 title: Servicio Tipo de Cambio 
 tags: [getting_started]
-keywords: release notes, announcements, what's new, new features
+keywords: soap, announcements, what's new, new features
 last_updated: July 16, 2016
 resumen: "Servicio Web creado por el Banco de Guatemala que devuelve el Tipo de cambio en moneda extranjera"
 sidebar: mydoc_sidebar
-permalink: mydoc_release_notes_60.html
+permalink: mydoc_soap.html
 folder: mydoc
 ---
 
@@ -28,4 +28,3 @@ https://www.banguat.gob.gt/variables/ws/TipoCambio.asmx
 <?xml version="1.0" encoding="utf-8"?> <InfoVariable> <CambioDolar> <VarDolar> <fecha>05/10/2017</fecha> <referencia>7.34192</referencia> </VarDolar> </CambioDolar> <TotalItems>1</TotalItems> </InfoVariable>
 </string>
 ```
-
