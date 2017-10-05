@@ -24,7 +24,7 @@ entries:
     folderitems:
 
     - title: Tipo de Cambio del día
-      url: /mydoc_release_notes_60.html
+      url: /mydoc_release_notes_50.html
       output: web, pdf
 
   - title: REST
