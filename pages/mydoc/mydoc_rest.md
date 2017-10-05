@@ -66,6 +66,7 @@ Se debe especificar el ID del cliente que se desea consultar
 | id | integer |
 
 ### Responses
+
 Codigo | Descripción | 
 -- | --
 200| OK | 
@@ -88,6 +89,7 @@ Nombre | Tipo |
 cliente| cliente
 
 ### Responses
+
 Codigo | Descripción | 
 -- | --
 200| OK | 
@@ -110,6 +112,7 @@ Nombre | Tipo |
 *id| integer | 
 
 ### Responses
+
 Codigo | Descripción | 
 -- | --
 204| No Content | 
